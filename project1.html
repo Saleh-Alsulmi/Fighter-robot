@@ -1,0 +1,30 @@
+<html>
+<head>
+<title> Robot control page  </title>
+
+<link rel="stylesheet" href="project1.css">
+<script src="project1.js"></script>
+<form method= "POST" action= "project1.php">
+
+</head>
+<body>
+<h2>  Robot control Panel</h2>
+<br> <br> <br> <br>
+
+<p style= font-size:20px> <br> Engine NO-1: <input type="range" id="R1" name="R1" min="90" max="180" onchange="updateTextInput1(this.value);"> <input type="text" id="TI1" value=""> </p> 
+<p style= font-size:20px> <br> Engine NO-2: <input type="range" id="R2" name="R2" min="90" max="180" onchange="updateTextInput2(this.value);"> <input type="text" id="TI2" value=""> </p> 
+<p style= font-size:20px> <br> Engine NO-3: <input type="range" id="R3" name="R3" min="90" max="180" onchange="updateTextInput3(this.value);"> <input type="text" id="TI3" value=""> </p> 
+<p style= font-size:20px> <br> Engine NO-4: <input type="range" id="R4" name="R4" min="90" max="180" onchange="updateTextInput4(this.value);"> <input type="text" id="TI4" value=""> </p> 
+<p style= font-size:20px> <br> Engine NO-5: <input type="range" id="R5" name="R5" min="90" max="180" onchange="updateTextInput5(this.value);"> <input type="text" id="TI5" value=""> </p> 
+<p style= font-size:20px> <br> Engine NO-6: <input type="range" id="R6" name="R6" min="90" max="180" onchange="updateTextInput6(this.value);"> <input type="text" id="TI6" value=""> </p> 
+<br>
+<p style= font-size:25px id="blue" >  Robot Status: <input type= "text" name= "status" id= "st" value= "OFF"> </p>
+
+<br>
+<input id="btn1" type="submit" value="submit" name="save">  </input>
+<br>
+<button id="btn2" type="button" onclick= "updateStatus(st)"> Operate the robot </button>
+
+</form>
+</body>
+</html>

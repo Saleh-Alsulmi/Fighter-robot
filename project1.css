@@ -1,0 +1,50 @@
+body {
+	background: linear-gradient(to top, lightblue 0%, lightblue 10%,lightgreen 10%, lightgreen 90%, lightblue 90%, lightblue 100%);
+}
+
+h2 {
+	
+	color: red;
+	text-align: center;
+	font-family: verdana;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	
+}
+
+p {
+	text-align: center;
+	font-family: verdana;
+}
+
+#btn1 {
+	margin: -175px 50px 300px 280px;
+	font-size: 16px;
+	padding: 15px 32px;
+	color: red;
+}
+
+#btn2 {
+	
+	margin: -275px 120px 300px 235px;
+	 font-size: 16px;
+	 padding: 15px 32px;
+	 color: green;
+}
+
+#blue {
+	
+	color: blue;
+	text-align: center;
+	font-family: serif;
+	
+}
+
+#status {
+	
+	color: red;
+	font-size: 16px;
+	padding: 12px 8px;
+	text-align: center;
+}
